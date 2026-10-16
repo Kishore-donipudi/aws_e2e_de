@@ -61,7 +61,9 @@ aws_data_engineering_project/
 * **streamlit-hello-world-app** — Streamlit app (`app.py`, `app.yaml`, `requirements.txt`) in `databricks_apps/` that embeds the live dashboard and makes it publicly accessible
 
 
+## Live-Dashboard Recording
 
+https://github.com/user-attachments/assets/5fdba6ca-845d-4fe5-b6c9-3c635d8a90bb
 
 ## Architecture Diagram
 
