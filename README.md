@@ -2,7 +2,13 @@
 
 An end-to-end data engineering pipeline built on **AWS S3** and **Databricks (Lakehouse)** — from raw CSV ingestion on S3, through a medallion (multi-hop) Lakeflow pipeline, to a live dashboard embedded in a public **Streamlit** app.
 
-- [Recording](#live-dashboard-recording)
+- [Pipeline-Graph](#lakeflow-declarative-pipelines)
+
+- [LDP](lakeflow-job)
+
+- [Live-Dashboard-Recording](#live-dashboard-recording)
+
+
 ## Project Steps
 
 ### 1. Store datasets in AWS S3
@@ -60,6 +66,17 @@ aws_data_engineering_project/
 
 * **Food Delivery Analytics** — AI/BI dashboard built on the gold tables (workspace root)
 * **streamlit-hello-world-app** — Streamlit app (`app.py`, `app.yaml`, `requirements.txt`) in `databricks_apps/` that embeds the live dashboard and makes it publicly accessible
+
+## LakeFlow-Declarative-Pipelines
+<h3>Created the LDP Using the multi-Hop Architecture using both CSV and JSON formatted files from s3 bucket </h3>
+
+<img width="1622" height="800" alt="image" src="https://github.com/user-attachments/assets/4934993a-0be6-4aa5-9e0a-c35d2a3f8680" />
+
+## LakeFlow-Job
+<h3>Created the Job using the LDP Task + Dashboard Task  with 3 retries if fails and also added dependent runs 
+After Task-1 is successful then only the Dashboard Task will run </h3>
+
+<img width="1622" height="807" alt="Screenshot 2026-10-16 214721" src="https://github.com/user-attachments/assets/a92366f2-a6f4-41f7-a274-3ec0654895d1" />
 
 
 ## Live-Dashboard Recording
@@ -133,5 +150,5 @@ https://github.com/user-attachments/assets/5fdba6ca-845d-4fe5-b6c9-3c635d8a90bb
             Public Dashboard Access
 ```
 
-- [Linkedin](https://www.linkedin.com/in/kishore-donipudi-2a9009307/) <br>
-This is my professional Mail-Id  - [Mail](kishoredonipudi921@gmail.com)
+This is My Linkedin profile - Yet to update !!! :)  [Linkedin](https://www.linkedin.com/in/kishore-donipudi-2a9009307/) <br>
+This is My professional Mail-Id  - kishoredonipudi921@gmail.com
