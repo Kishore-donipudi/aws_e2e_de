@@ -132,3 +132,6 @@ https://github.com/user-attachments/assets/5fdba6ca-845d-4fe5-b6c9-3c635d8a90bb
                        ▼
             Public Dashboard Access
 ```
+
+- [Linkedin](https://www.linkedin.com/in/kishore-donipudi-2a9009307/) <br>
+This is my professional Mail-Id  - [Mail](kishoredonipudi921@gmail.com)
