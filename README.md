@@ -8,6 +8,7 @@ An end-to-end data engineering pipeline built on **AWS S3** and **Databricks (La
 
 - [Live-Dashboard-Recording](#live-dashboard-recording)
 
+- [App-Deployment-Setup](#app-setup)
 
 ## Project Steps
 
@@ -82,6 +83,10 @@ After Task-1 is successful then only the Dashboard Task will run </h3>
 ## Live-Dashboard Recording
 
 https://github.com/user-attachments/assets/5fdba6ca-845d-4fe5-b6c9-3c635d8a90bb
+
+## App-Setup
+
+<img width="1901" height="871" alt="image" src="https://github.com/user-attachments/assets/678b5f94-3214-4fd9-b629-989d8328b6eb" />
 
 ## Architecture Diagram
 
