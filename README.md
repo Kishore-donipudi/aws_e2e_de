@@ -53,40 +53,26 @@ Finally, created a **Streamlit** app and embedded the live dashboard in it, maki
 ## Project Structure
 
 ```
-aws_data_engineering_project/
-├── aws-pipeline/                  # Lakeflow SDP pipeline sources (medallion layers)
-│   ├── raw_tables.py              # Bronze — raw streaming tables (Auto Loader)
-│   ├── silver_tables.py           # Silver — cleaned and validated tables
-│   └── gold_tables.py             # Gold — business-level aggregates
-├── aws_manual_ingestion            # Notebook — manual S3 → UC Volume ingestion with boto3
-├── aws_files_cleaning             # Notebook — cleaning the raw files
-└── project_readme.md              # This file
+aws_e2e_de/
+├── Data_ingestion/                     # Ingestion notebooks
+│   ├── aws_manual_ingestion.ipynb      # Manual S3 → UC Volume download with boto3
+│   └── aws_files_cleaning.ipynb        # Registering & cleaning the raw files
+├── aws-pipeline/                        # Lakeflow SDP sources (medallion architecture)
+│   ├── raw_tables.py                   # Bronze — raw streaming tables (Auto Loader)
+│   ├── silver_tables.py                # Silver — cleaned and validated tables
+│   └── gold_tables.py                  # Gold — business-level aggregates
+├── app/                                # Streamlit app (Databricks App)
+│   ├── app.py                          # App embedding the live dashboard
+│   ├── app.yaml / manifest.yaml        # Databricks App configuration
+│   └── requirements.txt
+└── README.md                           # This file
 ```
 
-## Related Workspace Assets
+## Dashboard & App
 
-* **Food Delivery Analytics** — AI/BI dashboard built on the gold tables (workspace root)
-* **streamlit-hello-world-app** — Streamlit app (`app.py`, `app.yaml`, `requirements.txt`) in `databricks_apps/` that embeds the live dashboard and makes it publicly accessible
+* **Food Delivery Analytics** — AI/BI dashboard built on the gold tables (Overview, Delivery Agents, Restaurants, Customers & Locations)
+* `app/` — Streamlit app deployed as a Databricks App, publicly serving the embedded live dashboard
 
-## LakeFlow-Declarative-Pipelines
-<h3>Created the LDP Using the multi-Hop Architecture using both CSV and JSON formatted files from s3 bucket </h3>
-
-<img width="1622" height="800" alt="image" src="https://github.com/user-attachments/assets/4934993a-0be6-4aa5-9e0a-c35d2a3f8680" />
-
-## LakeFlow-Job
-<h3>Created the Job using the LDP Task + Dashboard Task  with 3 retries if fails and also added dependent runs 
-After Task-1 is successful then only the Dashboard Task will run </h3>
-
-<img width="1622" height="807" alt="Screenshot 2026-10-16 214721" src="https://github.com/user-attachments/assets/a92366f2-a6f4-41f7-a274-3ec0654895d1" />
-
-
-## Live-Dashboard Recording
-
-https://github.com/user-attachments/assets/5fdba6ca-845d-4fe5-b6c9-3c635d8a90bb
-
-## App-Setup
-
-<img width="1901" height="871" alt="image" src="https://github.com/user-attachments/assets/678b5f94-3214-4fd9-b629-989d8328b6eb" />
 
 ## Architecture Diagram
 
