@@ -2,7 +2,7 @@
 
 An end-to-end data engineering pipeline built on **AWS S3** and **Databricks (Lakehouse)** — from raw CSV ingestion on S3, through a medallion (multi-hop) Lakeflow pipeline, to a live dashboard embedded in a public **Streamlit** app.
 
-1 - [Recording](#Live-Dashboard Recording)
+- [Recording](#live-dashboard-recording)
 ## Project Steps
 
 ### 1. Store datasets in AWS S3
