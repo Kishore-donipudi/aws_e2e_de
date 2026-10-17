@@ -2,6 +2,10 @@
 
 An end-to-end data engineering pipeline built on **AWS S3** and **Databricks (Lakehouse)** — from raw CSV ingestion on S3, through a medallion (multi-hop) Lakeflow pipeline, to a live dashboard embedded in a public **Streamlit** app.
 
+## Data Flow
+
+<img width="680" height="660" alt="architecture" src="https://github.com/user-attachments/assets/68080a23-90fa-4f21-bc5b-126bf60f65fb" /> 
+
 - [Pipeline-Graph](#lakeflow-declarative-pipelines)
 
 - [LDP](#lakeflow-job)
