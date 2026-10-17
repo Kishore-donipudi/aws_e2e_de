@@ -140,6 +140,20 @@ aws_e2e_de/
                        ▼
             Public Dashboard Access
 ```
+## LakeFlow-Declarative-Pipelines
+
+<img width="1622" height="800" alt="image" src="https://github.com/user-attachments/assets/4934993a-0be6-4aa5-9e0a-c35d2a3f8680" />
+
+## LakeFlow-Job
+<img width="1622" height="807" alt="Screenshot 2026-10-16 214721" src="https://github.com/user-attachments/assets/a92366f2-a6f4-41f7-a274-3ec0654895d1" />
+
+## Live-Dashboard-Recording
+
+https://github.com/user-attachments/assets/5fdba6ca-845d-4fe5-b6c9-3c635d8a90bb
+
+## App-Setup
+
+<img width="1901" height="871" alt="image" src="https://github.com/user-attachments/assets/678b5f94-3214-4fd9-b629-989d8328b6eb" />
 
 This is My Linkedin profile - Yet to update !!! :)  [Linkedin](https://www.linkedin.com/in/kishore-donipudi-2a9009307/) <br>
 This is My professional Mail-Id  - kishoredonipudi921@gmail.com
